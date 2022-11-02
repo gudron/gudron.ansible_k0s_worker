@@ -1,0 +1,23 @@
+galaxy_info:
+  author: Alex V Kotelnikov 
+  description: Ansible meta-role for manage k0s kubernates cluster. Roles is cloned from https://github.com/movd/k0s-ansible.
+  license: Apache 2.0
+
+  min_ansible_version: 2.4
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - 22.04
+        - 20.04
+        - 18.04
+        - 16.04
+    - name: Debian
+      versions:
+        - 8.0
+        - 9.0 
+
+  galaxy_tags:
+    - kubernates
+    - k0s
+    - k0s managment    
